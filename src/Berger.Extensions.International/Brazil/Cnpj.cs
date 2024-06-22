@@ -1,8 +1,8 @@
-﻿namespace Berger.Extensions.International
+﻿namespace Berger.Extensions.International.Brazil
 {
-    public static class CnpjHelper
+    public static class Cnpj
     {
-        public static bool CheckCnpj(string cnpj)
+        public static bool Check(string cnpj)
         {
             if (string.IsNullOrEmpty(cnpj))
                 return false;

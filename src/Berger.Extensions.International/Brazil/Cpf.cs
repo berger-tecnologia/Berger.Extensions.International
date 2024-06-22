@@ -1,8 +1,8 @@
-﻿namespace Berger.Extensions.International
+﻿namespace Berger.Extensions.International.Brazil
 {
-    public static class CpfHelper
+    public static class Cpf
     {
-        public static bool CheckCpf(string cpf)
+        public static bool Check(string cpf)
         {
             if (string.IsNullOrEmpty(cpf))
                 return false;
